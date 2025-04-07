@@ -1,22 +1,27 @@
 $(document).ready(function () {
-    colors = ['#795548', '#f44336', '#03a9f4'];
+    colors = ['#1593D4', '#016DC1', '#DCA66B','#A3592F'];
     $('.wrapper').css({
         height:Math.min($(window).width(),512) - 20,
         width:Math.min($(window).width(),512) -20,
     })
     new Jigsaw().init({
         container: '#slide0',
-        image: 'images/jerry1.png',
+        image: 'images/amazone.png',
         gridSize: 3
     });
     new Jigsaw().init({
         container: '#slide1',
-        image: 'images/micky.png',
+        image: 'images/bioguerra.png',
         gridSize: 3
     });
     new Jigsaw().init({
         container: '#slide2',
-        image: 'images/superman.png',
+        image: 'images/portedunonretour.png',
+        gridSize: 3
+    });
+    new Jigsaw().init({
+        container: '#slide3',
+        image: 'images/mosqueeporto.png',
         gridSize: 3
     });
 

@@ -68,7 +68,7 @@ var Jigsaw = function () {
                 resetGame();
             }, 1000)
         }
-        img.src = image || 'images/micky.png';
+        img.src = image || 'images/amazone.png';
     }
 
     function resetGame() {
